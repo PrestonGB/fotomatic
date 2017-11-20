@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Robotox`", sans-serif;
   font-size: 16px;
 }
 
@@ -26,6 +26,7 @@ html {
 
 .image-container img {
   display: block;
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -41,6 +42,7 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  height: 85px;
 }
 
 header .content {
@@ -65,7 +67,7 @@ nav a {
   vertical-align: bottom;
   line-height: 1.6;
   font-size: 1rem;
-  color: #4a4a4a;
+  color: #4A4A4A;
 }
 
 header .icon {
@@ -111,6 +113,12 @@ header .mobile {
 }
 
 /* Sign Up Section */
+.banner {
+  background-image: url("c://projects/fotomatic/resources/images/banner-landingpage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 #sign-up-section {
   display: flex;
